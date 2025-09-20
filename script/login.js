@@ -25,7 +25,7 @@ function login() {
     }
 
     const dummyEmail = "test@example.com";
-    const dummyPassword = "123456";
+    const dummyPassword = "12345678";
 
     if (email === dummyEmail && password === dummyPassword) {
         message.textContent = "Login berhasil! Selamat datang.";
